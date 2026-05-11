@@ -1,0 +1,68 @@
+{
+  "config": {
+    "train_path": "femnist/data/sample_small/train/sampled_small_train.json",
+    "test_path": "femnist/data/sample_small/test/sampled_small_test.json",
+    "aggregation": "krum",
+    "epsilon": 2.0,
+    "attack_type": "stealthy",
+    "attack_strength": 3.0,
+    "rounds": 3,
+    "local_epochs": 1,
+    "batch_size": 16,
+    "learning_rate": 0.05,
+    "malicious_fraction": 0.2,
+    "seed": 42,
+    "device": "cpu",
+    "output": "results\\sweeps_full\\krum_stealthy_eps_2_0.json"
+  },
+  "history": [
+    {
+      "round": 1,
+      "aggregation": "krum",
+      "epsilon": 2.0,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 928.989013671875,
+      "accuracy": 0.025,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "round": 2,
+      "aggregation": "krum",
+      "epsilon": 2.0,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 1427.395166015625,
+      "accuracy": 0.05,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "round": 3,
+      "aggregation": "krum",
+      "epsilon": 2.0,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 5819.18916015625,
+      "accuracy": 0.025,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    }
+  ]
+}

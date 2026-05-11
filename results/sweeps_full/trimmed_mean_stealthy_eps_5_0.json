@@ -1,0 +1,68 @@
+{
+  "config": {
+    "train_path": "femnist/data/sample_small/train/sampled_small_train.json",
+    "test_path": "femnist/data/sample_small/test/sampled_small_test.json",
+    "aggregation": "trimmed_mean",
+    "epsilon": 5.0,
+    "attack_type": "stealthy",
+    "attack_strength": 3.0,
+    "rounds": 3,
+    "local_epochs": 1,
+    "batch_size": 16,
+    "learning_rate": 0.05,
+    "malicious_fraction": 0.2,
+    "seed": 42,
+    "device": "cpu",
+    "output": "results\\sweeps_full\\trimmed_mean_stealthy_eps_5_0.json"
+  },
+  "history": [
+    {
+      "round": 1,
+      "aggregation": "trimmed_mean",
+      "epsilon": 5.0,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 4.578388023376465,
+      "accuracy": 0.05,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "round": 2,
+      "aggregation": "trimmed_mean",
+      "epsilon": 5.0,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 5.477449417114258,
+      "accuracy": 0.025,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "round": 3,
+      "aggregation": "trimmed_mean",
+      "epsilon": 5.0,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 6.2474054336547855,
+      "accuracy": 0.0125,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    }
+  ]
+}

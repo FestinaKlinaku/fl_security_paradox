@@ -1,0 +1,20 @@
+[
+  {
+    "aggregation": "fedavg",
+    "attack": "stealthy",
+    "epsilon": 0.5,
+    "output": "results\\sweeps_quick\\fedavg_stealthy_eps_0_5.json"
+  },
+  {
+    "aggregation": "fedavg",
+    "attack": "stealthy",
+    "epsilon": 1.0,
+    "output": "results\\sweeps_quick\\fedavg_stealthy_eps_1_0.json"
+  },
+  {
+    "aggregation": "fedavg",
+    "attack": "stealthy",
+    "epsilon": 5.0,
+    "output": "results\\sweeps_quick\\fedavg_stealthy_eps_5_0.json"
+  }
+]

@@ -1,0 +1,4 @@
+file,aggregation,attack_type,epsilon,round,loss,accuracy,detection_accuracy,false_positive_rate,true_positive_rate,false_negative_rate
+fedavg_stealthy_eps_0_5.json,fedavg,stealthy,0.5,1,1481.1710205078125,0.025,0.8,0.125,0.5,0.5
+fedavg_stealthy_eps_1_0.json,fedavg,stealthy,1.0,1,240.2836181640625,0.0,0.6,0.25,0.0,1.0
+fedavg_stealthy_eps_5_0.json,fedavg,stealthy,5.0,1,4.331453037261963,0.075,0.6,0.25,0.0,1.0

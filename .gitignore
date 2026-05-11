@@ -1,0 +1,10 @@
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Local dataset artifacts that are too large for GitHub
+femnist/data/raw_data/
+
+# Optional local run outputs
+results/latest_run.json
+results/single_run.json

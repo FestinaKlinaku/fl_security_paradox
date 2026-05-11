@@ -1,0 +1,68 @@
+{
+  "config": {
+    "train_path": "femnist/data/sample_small/train/sampled_small_train.json",
+    "test_path": "femnist/data/sample_small/test/sampled_small_test.json",
+    "aggregation": "fedavg",
+    "epsilon": 0.1,
+    "attack_type": "stealthy",
+    "attack_strength": 3.0,
+    "rounds": 3,
+    "local_epochs": 1,
+    "batch_size": 16,
+    "learning_rate": 0.05,
+    "malicious_fraction": 0.2,
+    "seed": 42,
+    "device": "cpu",
+    "output": "results\\sweeps_full\\fedavg_stealthy_eps_0_1.json"
+  },
+  "history": [
+    {
+      "round": 1,
+      "aggregation": "fedavg",
+      "epsilon": 0.1,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 124712.81875,
+      "accuracy": 0.0125,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "round": 2,
+      "aggregation": "fedavg",
+      "epsilon": 0.1,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 439994.725,
+      "accuracy": 0.0375,
+      "detection_accuracy": 0.6,
+      "false_positive_rate": 0.25,
+      "true_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "round": 3,
+      "aggregation": "fedavg",
+      "epsilon": 0.1,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 808727.6375,
+      "accuracy": 0.0,
+      "detection_accuracy": 0.8,
+      "false_positive_rate": 0.125,
+      "true_positive_rate": 0.5,
+      "false_negative_rate": 0.5
+    }
+  ]
+}

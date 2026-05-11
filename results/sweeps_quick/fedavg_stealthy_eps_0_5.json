@@ -1,0 +1,36 @@
+{
+  "config": {
+    "train_path": "femnist/data/sample_small/train/sampled_small_train.json",
+    "test_path": "femnist/data/sample_small/test/sampled_small_test.json",
+    "aggregation": "fedavg",
+    "epsilon": 0.5,
+    "attack_type": "stealthy",
+    "attack_strength": 3.0,
+    "rounds": 1,
+    "local_epochs": 1,
+    "batch_size": 16,
+    "learning_rate": 0.05,
+    "malicious_fraction": 0.2,
+    "seed": 42,
+    "device": "cpu",
+    "output": "results\\sweeps_quick\\fedavg_stealthy_eps_0_5.json"
+  },
+  "history": [
+    {
+      "round": 1,
+      "aggregation": "fedavg",
+      "epsilon": 0.5,
+      "attack_type": "stealthy",
+      "malicious_clients": [
+        "f1026_41",
+        "f1034_02"
+      ],
+      "loss": 1481.1710205078125,
+      "accuracy": 0.025,
+      "detection_accuracy": 0.8,
+      "false_positive_rate": 0.125,
+      "true_positive_rate": 0.5,
+      "false_negative_rate": 0.5
+    }
+  ]
+}
