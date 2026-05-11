@@ -1,4 +1,4 @@
-# FL Security Paradox
+# The Security Paradox in Federated Learning: Analyzing the Impact of Differential Privacy Noise on Poisoning Attack Detection 
 
 Ky projekt demonstron nje paradoks te rendesishem ne Federated Learning: sa me shume privacy te shtojme me Differential Privacy, aq me e veshtire mund te behet ruajtja e performances se modelit dhe zbulimi i klienteve keqdashes.
 
