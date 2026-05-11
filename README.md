@@ -357,6 +357,28 @@ Rezultatet permbledhese gjenden te:
 - `results/plots_full/summary.csv`
 - `results/plots_full/*.png`
 
+Per ta bere README me te qarte edhe vizualisht, me poshte jane perfshire disa nga grafikat kryesore te gjeneruara nga eksperimentet.
+
+### Grafikat kryesore
+
+#### Accuracy vs Epsilon
+
+Ky grafik tregon si ndryshon performanca e modelit kur ndryshohet niveli i privatësise.
+
+![Accuracy vs Epsilon](results/plots_full/accuracy_vs_epsilon.png)
+
+#### Detection Accuracy vs Epsilon
+
+Ky grafik tregon sa mire arrin sistemi t'i dalloj klientet normal nga klientet malicious.
+
+![Detection Accuracy vs Epsilon](results/plots_full/detection_accuracy_vs_epsilon.png)
+
+#### True Positive Rate vs Epsilon
+
+Ky grafik tregon sa nga klientet malicious arrihen te zbulohen realisht.
+
+![True Positive Rate vs Epsilon](results/plots_full/true_positive_rate_vs_epsilon.png)
+
 Nga rezultatet del kjo tablo:
 
 ### 1. Kur `epsilon` eshte i vogel, performanca bie shume
